@@ -2,10 +2,6 @@
 # B Tomczak
 
 
-class Encode:
-    pass
-
-
 def print_menu():
     print("Menu\n"
           "-------------\n"
