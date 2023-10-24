@@ -1,6 +1,6 @@
 
 # B Tomczak
-
+# 2nd commit: changed whitespace
 
 def print_menu():
     print("Menu\n"
@@ -36,7 +36,7 @@ def main():
         if option == 2:
             decoded = decoder(encoded)
             print(f"The encoded password is {encoded}, and the original password is {decoded}"
-                  " (error: will show 'None' until partner changes def decoder).")
+                  " (error: will show 'None' until partner changes def decoder).\n")
         elif option == 3:
             return False
 
