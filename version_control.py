@@ -21,8 +21,18 @@ def encoder(original):
 
 
 def decoder(encoded):
-    # partner will create decoder function here
-    pass
+    # Mariyah: Updated decoder function based on partner's encoder function
+    decoded = ''
+    for item in encoded:
+        if int(item) >= 3:
+            new_item = int(item) - 3
+            decoded += str(new_item)
+        elif int(item) <= 2:
+            new_item = 0
+            for i in range(int(item) + 1):
+                new_item = int(i) + 7
+            decoded += str(new_item)
+    return decoded
 
 
 def main():
